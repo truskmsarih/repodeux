@@ -1,3 +1,5 @@
+name: Trigger RepoA Workflow PAPA
+
 on:
   repository_dispatch:
     types: [run-script]
