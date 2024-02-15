@@ -1,0 +1,11 @@
+on:
+  repository_dispatch:
+    types: [run-script]
+
+jobs:
+  execute-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Script
+        run: |
+          echo "Hello world"
